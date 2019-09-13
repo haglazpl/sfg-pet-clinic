@@ -40,19 +40,16 @@
                 <version>2.5.3</version>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
     </build>
     <scm>
 
-        <url>https://github.com/haglazpl/sfg-pet-clinic.git</url>
-
-        <connection>scm:git:git@github.com:haglazpl/sfg-pet-clinic.git</connection>
-
         <developerConnection>scm:git:git@github.com:haglazpl/sfg-pet-clinic.git</developerConnection>
 
-        <tag>sfg-spring-petclinic-0.0.5-SNAPSHOT</tag>
+        <tag>HEAD</tag>
 
     </scm>
 </project>

@@ -52,7 +52,7 @@
 
         <developerConnection>scm:git:git@github.com:haglazpl/sfg-pet-clinic.git</developerConnection>
 
-        <tag>sfg-spring-petclinic</tag>
+        <tag>sfg-spring-petclinic-0.0.5-SNAPSHOT</tag>
 
     </scm>
 </project>

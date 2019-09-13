@@ -49,8 +49,8 @@
     </build>
     <scm>
 
-        <developerConnection>scm:git:ssh://git@github.com/haglazpl/sfg-pet-clinic.git</developerConnection>
-        <connection>scm:git:ssh://git@github.com/haglazpl/sfg-pet-clinic.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:haglazpl/sfg-pet-clinic.git</developerConnection>
+        <connection>scm:git:ssh://git@github.com:haglazpl/sfg-pet-clinic.git</connection>
 
         <tag>sfg-pet-clinic-0.0.5</tag>
 

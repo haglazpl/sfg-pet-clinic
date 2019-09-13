@@ -48,7 +48,5 @@
 
         <developerConnection>scm:git:git@github.com:haglazpl/sfg-pet-clinic.git</developerConnection>
 
-        <tag>0.0.1</tag>
-
     </scm>
 </project>

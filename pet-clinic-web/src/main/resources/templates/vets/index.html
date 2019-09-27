@@ -1,26 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'home')}">
 <head>
     <meta charset="UTF-8">
     <title>Pet Clinic Index</title>
 </head>
 <body>
-<h1 th:text="'List of vets'">Vets Page</h1>
-<table>
-    <thead>
-    <tr>
-        <th>Id</th>
-        <th>First name</th>
-        <th>Last name</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr th:each="vet : ${vets}">
-        <td th:text="${vet.id}">1</td>
-        <td th:text="${vet.firstName}">Dominik</td>
-        <td th:text="${vet.lastName}">Maj</td>
-    </tr>
-    </tbody>
-</table>
+<h2 th:text="#{welcome}">Welcome</h2>
+
+<div class="row">
+    <div class="col-md-12">
+        <img class="img-responsive" src="../static/resources/images/pets.png" th:src="@{/resources/images/pets.png}"/>
+    </div>
+</div>
 </body>
 </html>
